@@ -1,0 +1,85 @@
+.main {
+  background-color: #1bbc9b;
+  color: #ecfdf9;
+  height: 100%;
+  font-family: monospace;
+  /* margin-top: 150px; */
+}
+.pic {
+  width: 250px;
+  margin: 0px auto;
+  position: relative;
+  top: 100px;
+  margin-bottom: 100px;
+}
+.pic img {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+}
+body {
+  margin: 0px;
+}
+
+.img_caption {
+  text-align: center;
+}
+.img_caption p {
+  font-size: 21px;
+  margin: 0px;
+  font-weight: bold;
+}
+.intro {
+  text-align: center;
+}
+.footer-main-div {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  background: #272727;
+  padding: 1px 0px;
+  /* position: absolute;
+  bottom: 0px; */
+}
+.footer-social-icons {
+  widows: 100;
+  height: auto;
+  margin: auto;
+}
+.footer-social-icons ul {
+  text-align: center;
+}
+
+.footer-social-icons ul li {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 1px 10px;
+  border-radius: 70%;
+  background: #1bbc9b;
+}
+.footer-social-icons ul li a {
+  color: #272727;
+  font-size: 20px;
+  display: block;
+}
+.footer-social-icons ul li a i {
+  line-height: 50px;
+}
+.footer-social-icons ul li:hover {
+  background: #fff;
+}
+
+.footer-bottom {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  /* background: #1bbc9b; */
+  padding: 0px;
+  font-family: Arial;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
